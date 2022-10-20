@@ -54,16 +54,13 @@ The contract information is valid as of February 1, 2020.
   * Neural Network model with TensorFlow
   * Comparing Models using a Dummy Classifier
 
-Within the overall scaffolding, several standard data science toolboxes are used to solve the problem:
-
-Featuretools: automated feature engineering
-Pandas: data munging and engineering
-Scikit-Learn: standard machine learning algorithms
-Results
 The final results of the ROC-AUC comparing several models are shown below:
 
-Dummy Classifier = 0.50
-Decision Tree Classifier = 0.84
-Random Forest Classifier = 0.86
-KNN Classifier = 0.82
-CNN Classifier = 0.81
+
+| Model                                     | ROC AUC |
+|-------------------------------------------|---------|
+| Dummy Classifier                          | 0.5     |
+| Decision Tree Classifier                  | 0.84    |
+| Random Forest Classifier                  | 0.86    |
+| KNN Classifier                            | 0.82    |
+| CNN Classifier                            | 0.82    |
